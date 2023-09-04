@@ -1,0 +1,45 @@
+***** CURSO DOCKER *****
+
+0. GUIA PRACTICA DE USO PARA DESARROLLADORES, ENLACE: https://gist.github.com/Klerith/3f611ff0e5c15b733ac63365ab310a35
+
+   0.1 Node JS, 			ENLACE: https://nodejs.org/es
+       0.1.1 DESCARGA,			ENLACE: https://nodejs.org/es/download
+       0.1.2 VERSIONES ANTERIORES, 	ENLACE: https://nodejs.org/es/download/releases
+       
+   0.2 VSCode - Visual Studio Code, 	ENLACE: https://code.visualstudio.com/
+   
+   0.3 Google Chrome, 			ENLACE: https://www.google.com.mx/intl/es-419/chrome/?brand=CHBD&gclid=Cj0KCQiAtrnuBRDXARIsABiN-7AAMm13Ae3KDIib46Laxfe6tzD_w4yvDdpq5XsPw1eNlOkZ_0-3x3IaAvLEEALw_wcB&gclsrc=aw.ds
+   
+   0.4 Postman, 			ENLACE: https://www.postman.com/downloads/
+   
+   0.5 Git, 				ENLACE: https://git-scm.com/
+       0.5.1 git config --global user.name "Tu nombre"
+       0.5.2 git config --global user.email "Tu correo"
+       
+   0.6 Docker Desktop, 			ENLACE: https://www.docker.com/get-started/
+       0.6.1 DESCARGA,			ENLACE: https://docs.docker.com/desktop/install/linux-install/
+       0.6.2 PASOS EN LINUX, 		ENLACE: https://docs.docker.com/desktop/install/ubuntu/
+       
+   0.7 Table Plus:
+       0.7.1 Windows / Mac OSX, 	ENLACE: https://tableplus.com/
+       0.7.2 Linux, 			ENLACE: https://tableplus.com/linux
+       
+   0.8 Guías de atajos Docker
+       
+1. EXTENSIONES DE VSCODE
+   1.1 NGINX Configuration
+   1.2 Activitus Bar
+
+2. EXTENSIONES DE CHROME
+   2.1 Json Viewer Awesome
+   
+3. TEMA QUE ESTOY USANDO EN VSCODE Y WALLPAPER:
+   3.1 Aura Theme
+   3.2 Iconos
+   3.3 Wallpapers Developer
+
+
+1. DESCARGA DOCKER, ENLACE: https://www.docker.com/get-started/
+   * LINUX, ENLACE: https://docs.docker.com/desktop/install/linux-install/
+     * PASOS PARA LA INSTALACIÓN, ENLACE: https://docs.docker.com/desktop/install/ubuntu/
+

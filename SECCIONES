@@ -1,0 +1,11 @@
+0. QUE ES DOCKER
+   Docker es una herramienta diseñada para facilitar la creación, implementación y ejecución de aplicaciones mediante el uso de contenedores.
+
+1. SECCION 1
+   1.1 DESCARGAR UNA IMAGEN
+       docker pull hello-world
+       
+   2.1 CORRER UN CONTENEDOR: En el puerto 80, en el background con la imagen “getting-started”
+       docker container run hello-world
+
+   NOTA: Docker Deamon => Es el servicio en segundo plano que se ejecuta en el host que administra la creación, ejecución y distribución de contenedores Docker.
