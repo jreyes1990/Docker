@@ -1,11 +1,49 @@
-0. QUE ES DOCKER
-   Docker es una herramienta diseñada para facilitar la creación, implementación y ejecución de aplicaciones mediante el uso de contenedores.
-
 1. SECCION 1
+   1.0 COMANDOS DE AYUDA
+       docker --help
+       docker container --help
+       docker image --help
+       docker images --help
+   
    1.1 DESCARGAR UNA IMAGEN
        docker pull hello-world
        
-   2.1 CORRER UN CONTENEDOR: En el puerto 80, en el background con la imagen “getting-started”
+   1.2 CORRER UN CONTENEDOR: En el puerto 80, en el background con la imagen “getting-started”
        docker container run hello-world
+       
+   1.3 VISUALIZAR TODOS LOS CONTENEDORES E IMAGENES
+       docker container ls -a
+       docker image ls -a
+       
+   1.4 BORRAR CONTENEDORES E IMAGENES: 
+       docker container rm [CONTAINER_ID | IMAGE]
+       docker image rm [REPOSITORY | IMAGE_ID]
+       docker container prune
+       docker image prune
+       
+   1.5 PUBLISH AND DETACHED MODES
+       docker container run docker/getting-started
+       docker container run -d docker/getting-started
+       docker container run -d -p 80:80 docker/getting-started
+       docker container run -d -p 8080:80 docker/getting-started
+       docker run -d p- 80:80 docker/getting-started
+       
+       docker container stop [CONTAINER_ID | IMAGE]
+       
+       docker container start [CONTAINER_ID | IMAGE]
 
-   NOTA: Docker Deamon => Es el servicio en segundo plano que se ejecuta en el host que administra la creación, ejecución y distribución de contenedores Docker.
+   NOTA:
+   * QUE ES DOCKER
+     Docker es una herramienta diseñada para facilitar la creación, implementación y ejecución de aplicaciones mediante el uso de contenedores.
+    
+   * CONTAINER - CONTENEDOR: 
+     Es una instancia de una imagen ejecutandose en un ambiente aislado.
+     
+   * DOCKER DEAMON: 
+     Es el servicio en segundo plano que se ejecuta en el host que administra la creación, ejecución y distribución de contenedores Docker.
+     
+   * PRUNE:
+     Remueve todos los contenedores.
+     
+   * RM:
+     Remueve un contenedor o mas.
