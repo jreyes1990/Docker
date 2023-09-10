@@ -31,6 +31,27 @@
        docker container stop [CONTAINER_ID | IMAGE]
        
        docker container start [CONTAINER_ID | IMAGE]
+       
+   1.6 VARIABLES DE ENTORNO,             ENLACE: https://hub.docker.com/_/postgres
+       1.6.1 DESCARGA DOCKER DE POSTGRES
+       	     docker pull postgres
+       	     
+       1.6.2 INICIAR UNA INSTANCIA DE POSTGRES
+             docker container run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+             
+       1.6.3 VISUALIZAR TODOS LOS CONTENEDORES
+             docker container ls
+             
+   1.7 USAR LA IMAGEN DE POSTGRES
+       1.7.1 REMOVER EL CONTENEDOR, (-f) FORZANDO CUANDO ESTA EN EJECUCION.
+             docker container rm -f [CONTAINER_ID | IMAGE]
+             
+       1.7.2 HABILITAR EL PUERTO DE POSTGRES, (Se cambia el puerto 5432 a 5434, porque ya esta en uso)
+             docker container run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d -p 5434:5432 postgres
+             
+             docker exec -it some-postgres psql -U postgres
+       
+   
 
    NOTA:
    * QUE ES DOCKER
@@ -47,3 +68,15 @@
      
    * RM:
      Remueve un contenedor o mas.
+     
+   * ALPINE - LINUX:
+     Alpine Linux es una distribución de Linux ligera y orientada a la seguridad basada en musl libc y busybox.
+     
+     
+     
+     
+     
+
+     
+     
+     
